@@ -1,5 +1,3 @@
-i = 1
-while i <= 5:
-    print('*' * i)
-    i = i + 1
-print('Done✅')
+for x in range(5):
+    for y in range(3):
+        print(f'({x}, {y})')
